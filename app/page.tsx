@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import Image from "next/image";
 import { useEffect, useMemo, useState } from "react";
@@ -477,7 +477,13 @@ export default function Home() {
           <a href="#products">Products</a>
           <a href="#about">About</a>
           <a href="#wholesale">Wholesale</a>
-          <a href="#contact">Contact</a>
+          <a
+  href="https://www.goldenharvest.space/#contact"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  Contact
+</a>
         </nav>
 
         <button
@@ -760,7 +766,11 @@ export default function Home() {
               </div>
             </div>
 
-            <a href="#contact" className="wholesale-button">
+            <a
+              href="https://www.goldenharvest.space/#contact"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Ask About Bulk Orders
             </a>
           </div>
